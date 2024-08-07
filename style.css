@@ -140,7 +140,7 @@ h1{
 .text{
     padding: 2rem;
     font-family: "choke", sans-serif;
-    font-size:1.3rem;
+    font-size:1.1rem;
     color:hsl(0, 0%, 80%);
     background-image: url('./images/background-hero.png');
     background-repeat: no-repeat;
