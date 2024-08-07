@@ -1,14 +1,14 @@
 @font-face{
     font-family: "Roboto";
-    src:url(fonts/Roboto_Mono/static/RobotoMono-Medium.ttf)
+    src:url(Roboto_Mono/static/RobotoMono-Medium.ttf)
 }
 @font-face {
     font-family: "choke";
-    src: url(fonts//radiant_sunset/Radiant\ Sunset.ttf);
+    src: url(radiant_sunset/Radiant\ Sunset.ttf);
 }
 @font-face {
     font-family: "clean";
-    src: url(fonts/Roboto_Mono/static/RobotoMono-MediumItalic.ttf);
+    src: url(Roboto_Mono/static/RobotoMono-MediumItalic.ttf);
 }
 
 body{
