@@ -1,0 +1,196 @@
+@font-face{
+    font-family: "Roboto";
+    src:url(fonts/Roboto_Mono/static/RobotoMono-Medium.ttf)
+}
+@font-face {
+    font-family: "choke";
+    src: url(fonts//radiant_sunset/Radiant\ Sunset.ttf);
+}
+@font-face {
+    font-family: "clean";
+    src: url(fonts/Roboto_Mono/static/RobotoMono-MediumItalic.ttf);
+}
+
+body{
+    font-family:'poppins'sans-serif;
+    margin: 0%;
+    line-height: 3rem;
+   
+    letter-spacing: 0.02rem;
+    /*min-height: 200vh;*/
+    
+}
+.header{
+    font-family:"clean", sans-serif;
+    display:flex;
+    justify-content: space-between;
+    font-size:1em;
+    color:hsl(120, 100%, 95%);
+    padding:0.1rem;
+    text-align: center;
+    background-color: hsl(0, 0%, 20%);
+    position: relative;
+
+   
+   
+}
+.open{
+    
+    .overlay{
+        
+        left:0%
+    }
+    
+    .over{
+        
+    span:first-child{
+        transform: rotate(52deg);
+    }
+    span:nth-child(2){
+        opacity:0
+    }
+    span:last-child{
+        transform: rotate(-56deg);
+    }
+    
+    }
+}   
+
+
+.overlay{
+    position:   fixed;
+    width:100%;
+    color: white;
+    background-image: linear-gradient(hsl(0, 0%, 40%), hsl(0, 0%, 30%));
+     top:0%;
+    left: -100%;
+    bottom: 0;
+    right: 0;
+    transition:all 0.5s ease-in-out;
+    text-align: start;
+
+
+}
+
+
+.btn2{
+    margin-top: 8rem;
+    
+}
+button{
+    font-family: "choke", sans-serif;
+    color:gray;
+    font-size: 2rem;
+    margin-left: 2rem;
+    border: none;
+    background:transparent;
+    padding: 3;
+    transition:all 0.4s ease-in-out ;
+}
+button:hover{
+    border: 0.6px dotted black;
+}
+
+
+.item{
+    padding-top:2rem;
+    text-align: center;
+    margin-top: -3rem;
+    color:white;
+    display: none;
+
+
+}
+.active{
+
+display:block
+
+
+}
+.over{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+}
+span{
+    padding: 1px;
+    height: 1px;
+    width:2rem;
+    background-color: grey;
+    margin-top: 2.1rem;
+    margin-bottom: -74%;
+    transition: all 300ms ease-in-out;
+    transform-origin: 3px 1px;
+
+}
+h1{
+    font-family:"clean", sans-serif;
+}
+.image{
+    margin-top:  1.3rem; 
+    padding-right: 3rem;  
+    display:none;
+    
+}
+.art{
+    padding:3rem;
+}
+
+.text{
+    padding: 2rem;
+    font-family: "choke", sans-serif;
+    font-size:2rem;
+    color:hsl(0, 0%, 80%);
+    background-image: url('./images/background-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:800px;
+  
+    
+
+}
+@media(min-width:62rem){
+    .text{
+        text-align: center;
+    }
+    .image{
+        display:block;
+    }
+    
+
+    
+}  
+
+.art1{
+    display: flex;
+    justify-content: center;
+    
+    
+    column-gap: 1.5rem;
+    padding:3rem;
+    background-color:hsl(110, 10%, 25%);
+}
+.write{
+    font-family:"clean", sans-serif;
+    font-size: 1.1rem;
+    padding: 2rem;
+    color:white;
+    background-color: hsl(0, 0%, 15%);
+}
+.footer{
+    text-align: center;
+    font-family:"choke", sans-serif ;
+    font-size: 1.7rem;
+    background-color: hsl(233, 24%, 26%);
+    color:white;
+
+}
+.icons{
+    color:hsl(240, 44%, 50%);
+}
+
+.logo{
+    padding-top: 0.5rem;
+    padding-bottom: 1.4rem;
+}
