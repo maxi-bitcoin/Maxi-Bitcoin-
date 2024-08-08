@@ -190,6 +190,9 @@ h1{
 .icons{
     color:hsl(240, 44%, 50%);
 }
+.icons a{
+    color:hsl(240, 44%, 50%);
+}
 
 .logo{
     padding-top: 0.5rem;
