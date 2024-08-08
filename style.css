@@ -190,7 +190,7 @@ h1{
 .icons{
     color:hsl(240, 44%, 50%);
 }
-.link{
+.icons, a{
     text-decoration:none;
     color:hsl(240, 44%, 50%);
 }
