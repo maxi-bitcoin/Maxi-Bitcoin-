@@ -134,7 +134,9 @@ h1{
     
 }
 .art{
-    padding:3rem;
+    padding:2.5rem;
+    display:flex;
+    justify-content:center;
 }
 
 .text{
